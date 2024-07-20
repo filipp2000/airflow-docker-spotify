@@ -1,0 +1,20 @@
+# .gitignore
+
+# Ignore Airflow logs
+logs/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore SQLite database files
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
